@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+coverage.out
+
+# GoLand IDE specific files
+.idea/
+
+# Dependency directories (e.g. vendored packages)
+vendor/
+
+# Go modules
+/go.mod
+/go.sum
+
+# Log files
+*.log
+
+# Compiled object files
+*.o
+*.a
+
+# Cache directories
+*.cache/
+*.out/
+
+# Test binary
+*.test
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build directories
+/build/
+bin/
+cmd/
+
+# Go workspace file
+*.workspace
+
+# Go build cache
+/go/pkg/
+
+# Go race detector log
+race*
+
+# System-specific files
+.DS_Store
+Thumbs.db
